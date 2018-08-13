@@ -1,0 +1,31 @@
+body {
+    background-image: url(../img/background.png);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+h1{
+    color: purple;    
+}
+
+p{
+    color:#4f4f4f;
+}
+    
+/* grabient site de gradiente*/
+.caixa{
+    background-color: white;
+    width: 40%; /* Muda em relação à mãe dele*/
+    margin: 50px auto 0 auto; /* 50=cima auto=direita 0=baixo e auto=esquerda*/
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .5)
+}
+
+/* Lê primeiro e muda SÓ a tag IMG dentro da classe redes sociais   */
+.redes-sociais img{ 
+    width: 50px;
+    padding:10px;
+}
